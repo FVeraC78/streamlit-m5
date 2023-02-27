@@ -8,7 +8,7 @@ df=pd.read_csv("kpis.csv")
 
 #--- PAGE CONFIG ---#
 st.set_page_config(page_title="Socialize your Knowledge",
-                   page_icon=":busts_in_silhouette:")
+                   page_icon="logo.jpg")
 
 st.title("Socialize your Knowledge")
 st.markdown("_Site that would help and make easier for us to analyze the performance of Socialize your Knowledge employees_")
