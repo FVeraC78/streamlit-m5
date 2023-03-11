@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+st.title("App New York City - Fernando Vera A01625282")
 @st.cache
 def load_data(nrows):
     data = pd.read_csv('citibike-tripdata.csv', nrows=nrows)
