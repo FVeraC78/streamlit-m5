@@ -9,7 +9,7 @@ def load_data(nrows):
     
     return datos
 
-st.title('Netflix app')
+st.title('Netflix app - Fernando Vera A01625282')
 st.markdown('Done using st.cache')
 
 datos = load_data(500)
